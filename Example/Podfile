@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTNAppUpdater_Example' do
+  pod 'TTNAppUpdater', :path => '../'
+
+  target 'TTNAppUpdater_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
