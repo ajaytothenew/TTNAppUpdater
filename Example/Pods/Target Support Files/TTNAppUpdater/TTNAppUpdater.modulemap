@@ -1,0 +1,6 @@
+framework module TTNAppUpdater {
+  umbrella header "TTNAppUpdater-umbrella.h"
+
+  export *
+  module * { export * }
+}

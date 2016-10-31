@@ -1,0 +1,16 @@
+PODS:
+  - TTNAppUpdater (0.1.0)
+
+DEPENDENCIES:
+  - TTNAppUpdater (from `../`)
+
+EXTERNAL SOURCES:
+  TTNAppUpdater:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TTNAppUpdater: 56b1dd2842f0dc16ae81093805912ea40f967809
+
+PODFILE CHECKSUM: e20ce0ce3f8715a19071be6d7ea415b9f68aa69f
+
+COCOAPODS: 1.1.1

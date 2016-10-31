@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1993CDB60045FF63D90D51DD45BAF9B2 /* Pods-TTNAppUpdater_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F24BC272AD025EE44F5261067CAAFD36 /* Pods-TTNAppUpdater_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41D204EB6DE7386A1EB501503F3489F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		452F97DA41954185368B16C78AC903EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4C00E16B4F4A6358B1C505480AA127B1 /* SwiftAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6321E0E8E45FA390D57F445A904BB9FA /* SwiftAlertView.swift */; };
+		5E2238601762B7D2E32E322C6DF14204 /* Pods-TTNAppUpdater_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68498D4A01045C7B10AE8AD5A0201FE5 /* Pods-TTNAppUpdater_Tests-dummy.m */; };
+		6AD926E818972A14E0D9304DDF10463D /* Pods-TTNAppUpdater_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0220C515C220BA3A615CAEAE0EB50C0D /* Pods-TTNAppUpdater_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A92B32D73DD452C943A195CC33985793 /* AppUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348B61B3AD8B15D50E5CA1FCA148B6B /* AppUpdater.swift */; };
+		C41CF16FA028781A73E5E7997FA15D0E /* Pods-TTNAppUpdater_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A782154D487ED329D1BD5AC0CE786E /* Pods-TTNAppUpdater_Example-dummy.m */; };
+		CE73A413C3739DB6ED758EA4F0498FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E5913562BC8DABDA813B7F22277ED627 /* TTNAppUpdater-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 494858115A64F89778035ABBCBD28CFC /* TTNAppUpdater-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F387B1F00EA8271B7F4709E1F665A97F /* TTNAppUpdater-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 106EB5F793AC1F935CB6CD553A0C5C8E /* TTNAppUpdater-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F74BDBC891FBB1ED44A384FCF19E0320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB3CDEBEA8D169F5807CC7D1C60E089;
+			remoteInfo = TTNAppUpdater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0220C515C220BA3A615CAEAE0EB50C0D /* Pods-TTNAppUpdater_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTNAppUpdater_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0783E152CC6444C909E0BEB867A3A9A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08CB07A380FFDCDC6D93E137ADAA5C40 /* Pods-TTNAppUpdater_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTNAppUpdater_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A7F3426C34413AC0F3F5E3515B9C2F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106EB5F793AC1F935CB6CD553A0C5C8E /* TTNAppUpdater-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTNAppUpdater-dummy.m"; sourceTree = "<group>"; };
+		253CA216A95F59D28319D88DCB5B4687 /* TTNAppUpdater-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTNAppUpdater-prefix.pch"; sourceTree = "<group>"; };
+		2552BED65272EE9599E845468F6F85FF /* Pods-TTNAppUpdater_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TTNAppUpdater_Example.modulemap"; sourceTree = "<group>"; };
+		25C9B3F7408BC9B9EEFE0A776554FEEF /* Pods-TTNAppUpdater_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TTNAppUpdater_Tests.modulemap"; sourceTree = "<group>"; };
+		4079BA778656C38D411CBACB86D5850E /* Pods-TTNAppUpdater_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTNAppUpdater_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		494858115A64F89778035ABBCBD28CFC /* TTNAppUpdater-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTNAppUpdater-umbrella.h"; sourceTree = "<group>"; };
+		56D88136048E3BA6F6BA9AD5AAB4EA81 /* Pods-TTNAppUpdater_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTNAppUpdater_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6321E0E8E45FA390D57F445A904BB9FA /* SwiftAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftAlertView.swift; sourceTree = "<group>"; };
+		66C9693F580FBDB98A32B5D9A2FE0ECF /* Pods-TTNAppUpdater_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTNAppUpdater_Tests-resources.sh"; sourceTree = "<group>"; };
+		67D7CADBCA78FFAD1FCD1F4D76ADBCDC /* Pods_TTNAppUpdater_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTNAppUpdater_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68498D4A01045C7B10AE8AD5A0201FE5 /* Pods-TTNAppUpdater_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTNAppUpdater_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A8DDD753431854A05DE938A494E5D4E /* Pods-TTNAppUpdater_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTNAppUpdater_Example.release.xcconfig"; sourceTree = "<group>"; };
+		851634C4499467FEA57CBDF01896799E /* Pods_TTNAppUpdater_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTNAppUpdater_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A782154D487ED329D1BD5AC0CE786E /* Pods-TTNAppUpdater_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTNAppUpdater_Example-dummy.m"; sourceTree = "<group>"; };
+		99DDA1B50AB3417B40B476DB14612522 /* Pods-TTNAppUpdater_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTNAppUpdater_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A99CEA9DF8172B53ADCCCA76F63AE263 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14EC557059C2BFF871739F9BD038BAD /* TTNAppUpdater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTNAppUpdater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CC02F10DA85D640C5A005FB3D9095A /* TTNAppUpdater.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTNAppUpdater.xcconfig; sourceTree = "<group>"; };
+		B83126DB38F2F21A1681EB045DAF55DF /* Pods-TTNAppUpdater_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTNAppUpdater_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C2EBB72A82851BA17B4BDD392EC04768 /* Pods-TTNAppUpdater_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTNAppUpdater_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C348B61B3AD8B15D50E5CA1FCA148B6B /* AppUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppUpdater.swift; sourceTree = "<group>"; };
+		C4DB9022582DA7F33C798EA7602DF241 /* TTNAppUpdater.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TTNAppUpdater.modulemap; sourceTree = "<group>"; };
+		CAB691C7358BC88C983789C910E61448 /* Pods-TTNAppUpdater_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTNAppUpdater_Example-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE797298EAF38FFCCBB3646100F95054 /* Pods-TTNAppUpdater_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTNAppUpdater_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E204B6591B8BEEC92FF5EE27A73F865B /* Pods-TTNAppUpdater_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTNAppUpdater_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E257310960ACD2C78D9FB6141845CFF4 /* Pods-TTNAppUpdater_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTNAppUpdater_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F24BC272AD025EE44F5261067CAAFD36 /* Pods-TTNAppUpdater_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTNAppUpdater_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		068905C9ECD708F83AD3F386B2C81A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE73A413C3739DB6ED758EA4F0498FC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61901C3480E123F70B5CEA483F24FCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452F97DA41954185368B16C78AC903EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B67231448AD6804DB77BC2AF84DCA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D204EB6DE7386A1EB501503F3489F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4615187BBB028ADD9EE64E95F772CE04 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51874AD4AAA6E2C0EE0BE9583E890708 /* Pods-TTNAppUpdater_Example */,
+				FCFF6DB0BDD47523CF1461F4B1F1FA18 /* Pods-TTNAppUpdater_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51874AD4AAA6E2C0EE0BE9583E890708 /* Pods-TTNAppUpdater_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A99CEA9DF8172B53ADCCCA76F63AE263 /* Info.plist */,
+				2552BED65272EE9599E845468F6F85FF /* Pods-TTNAppUpdater_Example.modulemap */,
+				DE797298EAF38FFCCBB3646100F95054 /* Pods-TTNAppUpdater_Example-acknowledgements.markdown */,
+				08CB07A380FFDCDC6D93E137ADAA5C40 /* Pods-TTNAppUpdater_Example-acknowledgements.plist */,
+				97A782154D487ED329D1BD5AC0CE786E /* Pods-TTNAppUpdater_Example-dummy.m */,
+				E257310960ACD2C78D9FB6141845CFF4 /* Pods-TTNAppUpdater_Example-frameworks.sh */,
+				CAB691C7358BC88C983789C910E61448 /* Pods-TTNAppUpdater_Example-resources.sh */,
+				F24BC272AD025EE44F5261067CAAFD36 /* Pods-TTNAppUpdater_Example-umbrella.h */,
+				4079BA778656C38D411CBACB86D5850E /* Pods-TTNAppUpdater_Example.debug.xcconfig */,
+				7A8DDD753431854A05DE938A494E5D4E /* Pods-TTNAppUpdater_Example.release.xcconfig */,
+			);
+			name = "Pods-TTNAppUpdater_Example";
+			path = "Target Support Files/Pods-TTNAppUpdater_Example";
+			sourceTree = "<group>";
+		};
+		612069A40B3F8829EDCD5800D2E1EF7E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A11085F2FC619097030505B2DDCAF /* TTNAppUpdater */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A6A11085F2FC619097030505B2DDCAF /* TTNAppUpdater */ = {
+			isa = PBXGroup;
+			children = (
+				94BF3C113A3A65DB45D4B216219152EC /* Support Files */,
+				C9E163182AF4C8F951A7B66C6F0F3D16 /* TTNAppUpdater */,
+			);
+			name = TTNAppUpdater;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				612069A40B3F8829EDCD5800D2E1EF7E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9389586CB2AAD36B9ECA295FB832E8B3 /* Products */,
+				4615187BBB028ADD9EE64E95F772CE04 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A32A8D71A027DE21B0D01A8B4E3A5D0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C348B61B3AD8B15D50E5CA1FCA148B6B /* AppUpdater.swift */,
+				6321E0E8E45FA390D57F445A904BB9FA /* SwiftAlertView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9389586CB2AAD36B9ECA295FB832E8B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67D7CADBCA78FFAD1FCD1F4D76ADBCDC /* Pods_TTNAppUpdater_Example.framework */,
+				851634C4499467FEA57CBDF01896799E /* Pods_TTNAppUpdater_Tests.framework */,
+				B14EC557059C2BFF871739F9BD038BAD /* TTNAppUpdater.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94BF3C113A3A65DB45D4B216219152EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A7F3426C34413AC0F3F5E3515B9C2F5 /* Info.plist */,
+				C4DB9022582DA7F33C798EA7602DF241 /* TTNAppUpdater.modulemap */,
+				B7CC02F10DA85D640C5A005FB3D9095A /* TTNAppUpdater.xcconfig */,
+				106EB5F793AC1F935CB6CD553A0C5C8E /* TTNAppUpdater-dummy.m */,
+				253CA216A95F59D28319D88DCB5B4687 /* TTNAppUpdater-prefix.pch */,
+				494858115A64F89778035ABBCBD28CFC /* TTNAppUpdater-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTNAppUpdater";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E163182AF4C8F951A7B66C6F0F3D16 /* TTNAppUpdater */ = {
+			isa = PBXGroup;
+			children = (
+				8A32A8D71A027DE21B0D01A8B4E3A5D0 /* Classes */,
+			);
+			path = TTNAppUpdater;
+			sourceTree = "<group>";
+		};
+		FCFF6DB0BDD47523CF1461F4B1F1FA18 /* Pods-TTNAppUpdater_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0783E152CC6444C909E0BEB867A3A9A3 /* Info.plist */,
+				25C9B3F7408BC9B9EEFE0A776554FEEF /* Pods-TTNAppUpdater_Tests.modulemap */,
+				99DDA1B50AB3417B40B476DB14612522 /* Pods-TTNAppUpdater_Tests-acknowledgements.markdown */,
+				C2EBB72A82851BA17B4BDD392EC04768 /* Pods-TTNAppUpdater_Tests-acknowledgements.plist */,
+				68498D4A01045C7B10AE8AD5A0201FE5 /* Pods-TTNAppUpdater_Tests-dummy.m */,
+				B83126DB38F2F21A1681EB045DAF55DF /* Pods-TTNAppUpdater_Tests-frameworks.sh */,
+				66C9693F580FBDB98A32B5D9A2FE0ECF /* Pods-TTNAppUpdater_Tests-resources.sh */,
+				0220C515C220BA3A615CAEAE0EB50C0D /* Pods-TTNAppUpdater_Tests-umbrella.h */,
+				E204B6591B8BEEC92FF5EE27A73F865B /* Pods-TTNAppUpdater_Tests.debug.xcconfig */,
+				56D88136048E3BA6F6BA9AD5AAB4EA81 /* Pods-TTNAppUpdater_Tests.release.xcconfig */,
+			);
+			name = "Pods-TTNAppUpdater_Tests";
+			path = "Target Support Files/Pods-TTNAppUpdater_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2875FFDD6645431237DCADB983488C93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1993CDB60045FF63D90D51DD45BAF9B2 /* Pods-TTNAppUpdater_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684E8EDA55CC3D439B146AEB6A0E92F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5913562BC8DABDA813B7F22277ED627 /* TTNAppUpdater-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E395CF8D813D856C519EF8E2135F24DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD926E818972A14E0D9304DDF10463D /* Pods-TTNAppUpdater_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7BB3CDEBEA8D169F5807CC7D1C60E089 /* TTNAppUpdater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE2FF57756DA92B1CE1E042FA54345B /* Build configuration list for PBXNativeTarget "TTNAppUpdater" */;
+			buildPhases = (
+				878807F8615F954F9BF5083CE9C533EC /* Sources */,
+				068905C9ECD708F83AD3F386B2C81A3D /* Frameworks */,
+				684E8EDA55CC3D439B146AEB6A0E92F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTNAppUpdater;
+			productName = TTNAppUpdater;
+			productReference = B14EC557059C2BFF871739F9BD038BAD /* TTNAppUpdater.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9337C30A1162DB64553069CFD85E169B /* Pods-TTNAppUpdater_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965BF06A67731C178AA92B7C498A248B /* Build configuration list for PBXNativeTarget "Pods-TTNAppUpdater_Example" */;
+			buildPhases = (
+				E0E58B9873DDF07CA424B75FDE1AA440 /* Sources */,
+				B8B67231448AD6804DB77BC2AF84DCA8 /* Frameworks */,
+				2875FFDD6645431237DCADB983488C93 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F2834804B40681CC1D856F6C759934 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTNAppUpdater_Example";
+			productName = "Pods-TTNAppUpdater_Example";
+			productReference = 67D7CADBCA78FFAD1FCD1F4D76ADBCDC /* Pods_TTNAppUpdater_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F516367B891A496186E8A0846904104 /* Pods-TTNAppUpdater_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57085D8F749839EFFE62191FBED17FFE /* Build configuration list for PBXNativeTarget "Pods-TTNAppUpdater_Tests" */;
+			buildPhases = (
+				714330DEBFF9E35A42B2246DA731CEA4 /* Sources */,
+				61901C3480E123F70B5CEA483F24FCA1 /* Frameworks */,
+				E395CF8D813D856C519EF8E2135F24DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TTNAppUpdater_Tests";
+			productName = "Pods-TTNAppUpdater_Tests";
+			productReference = 851634C4499467FEA57CBDF01896799E /* Pods_TTNAppUpdater_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9389586CB2AAD36B9ECA295FB832E8B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9337C30A1162DB64553069CFD85E169B /* Pods-TTNAppUpdater_Example */,
+				9F516367B891A496186E8A0846904104 /* Pods-TTNAppUpdater_Tests */,
+				7BB3CDEBEA8D169F5807CC7D1C60E089 /* TTNAppUpdater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714330DEBFF9E35A42B2246DA731CEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2238601762B7D2E32E322C6DF14204 /* Pods-TTNAppUpdater_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878807F8615F954F9BF5083CE9C533EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92B32D73DD452C943A195CC33985793 /* AppUpdater.swift in Sources */,
+				4C00E16B4F4A6358B1C505480AA127B1 /* SwiftAlertView.swift in Sources */,
+				F387B1F00EA8271B7F4709E1F665A97F /* TTNAppUpdater-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E58B9873DDF07CA424B75FDE1AA440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41CF16FA028781A73E5E7997FA15D0E /* Pods-TTNAppUpdater_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58F2834804B40681CC1D856F6C759934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTNAppUpdater;
+			target = 7BB3CDEBEA8D169F5807CC7D1C60E089 /* TTNAppUpdater */;
+			targetProxy = F74BDBC891FBB1ED44A384FCF19E0320 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12AB24D3E038F3E00571A264BC59AE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4079BA778656C38D411CBACB86D5850E /* Pods-TTNAppUpdater_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TTNAppUpdater_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTNAppUpdater_Example/Pods-TTNAppUpdater_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TTNAppUpdater_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4360B5EC708F84653A91792124670E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E204B6591B8BEEC92FF5EE27A73F865B /* Pods-TTNAppUpdater_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TTNAppUpdater_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTNAppUpdater_Tests/Pods-TTNAppUpdater_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TTNAppUpdater_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D033879E370905D0BCE4B37AE32C494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CC02F10DA85D640C5A005FB3D9095A /* TTNAppUpdater.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTNAppUpdater/TTNAppUpdater-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTNAppUpdater/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTNAppUpdater/TTNAppUpdater.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TTNAppUpdater;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B648A37ADA6F0741586290A1873B949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D88136048E3BA6F6BA9AD5AAB4EA81 /* Pods-TTNAppUpdater_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TTNAppUpdater_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTNAppUpdater_Tests/Pods-TTNAppUpdater_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TTNAppUpdater_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B635693A4C29C379DF0029388B2C35B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CC02F10DA85D640C5A005FB3D9095A /* TTNAppUpdater.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTNAppUpdater/TTNAppUpdater-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTNAppUpdater/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTNAppUpdater/TTNAppUpdater.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TTNAppUpdater;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0C20F685704A4C655AA7C3F67918EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8DDD753431854A05DE938A494E5D4E /* Pods-TTNAppUpdater_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TTNAppUpdater_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTNAppUpdater_Example/Pods-TTNAppUpdater_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TTNAppUpdater_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57085D8F749839EFFE62191FBED17FFE /* Build configuration list for PBXNativeTarget "Pods-TTNAppUpdater_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4360B5EC708F84653A91792124670E26 /* Debug */,
+				6B648A37ADA6F0741586290A1873B949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965BF06A67731C178AA92B7C498A248B /* Build configuration list for PBXNativeTarget "Pods-TTNAppUpdater_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AB24D3E038F3E00571A264BC59AE88 /* Debug */,
+				D0C20F685704A4C655AA7C3F67918EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE2FF57756DA92B1CE1E042FA54345B /* Build configuration list for PBXNativeTarget "TTNAppUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B635693A4C29C379DF0029388B2C35B5 /* Debug */,
+				4D033879E370905D0BCE4B37AE32C494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
